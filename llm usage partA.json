@@ -1,0 +1,121 @@
+{
+  "student_metadata": {
+    "name": "Sugat Athawake",
+    "roll_number": "20109",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-03"
+  },
+
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "provider": "OpenAI"
+    }
+  ],
+
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Checking whether the KDD 2012 DTW paper satisfies AML Part A guidelines.",
+      "prompt": "Does 'Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping' satisfy AML venue, year, and syllabus constraints?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Helped verify that the paper is from KDD 2012 and aligns with the Time Series unit.",
+      "student_verification": "I manually checked the KDD 2012 proceedings and confirmed year and conference.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Evaluating reproducibility and computational feasibility.",
+      "prompt": "Can this DTW subsequence mining paper be reproduced on CPU without special hardware?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Clarified that the algorithm is optimization-based and can be implemented on CPU.",
+      "student_verification": "I reviewed the experimental section of the KDD paper.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Comparing multiple time-series papers under AML restrictions.",
+      "prompt": "Which time series paper fits better under AML guidelines between Early Classification (2011) and DTW subsequence mining (2012)?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Helped compare methodological strength and venue alignment.",
+      "student_verification": "I independently read abstracts and verified year and venue manually.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-03",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Confirming methodological contribution.",
+      "prompt": "Is the primary contribution of the DTW subsequence mining paper methodological?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Confirmed that the UCR Suite introduces algorithmic innovations.",
+      "student_verification": "Verified by reading the introduction and method section directly.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-03",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Understanding risks before submission.",
+      "prompt": "Is selecting the KDD 2012 DTW paper safe under AML year, venue, and dataset constraints?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Helped confirm compliance with venue, year range, and data accessibility rules.",
+      "student_verification": "I manually re-read Part A instructions and cross-checked constraints.",
+      "confidence_level": 5
+    }
+  ],
+
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Does the KDD 2012 DTW paper satisfy AML constraints?",
+      "why_important": "Ensured compliance with year and venue requirements."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 5,
+      "prompt": "Is selecting the KDD 2012 DTW paper safe under AML rules?",
+      "why_important": "Confirmed no risk of disqualification."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 2,
+      "prompt": "Can this paper be reproduced on CPU-only setup?",
+      "why_important": "Ensured feasibility of experiments."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "Is the contribution methodological?",
+      "why_important": "Verified eligibility under Part A requirements."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 3,
+      "prompt": "Which time series paper fits AML constraints better?",
+      "why_important": "Helped choose the strongest compliant option."
+    }
+  ],
+
+  "student declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
+    "understanding acknowledged": true,
+    "signature": "Sugat Athawake",
+    "date": "2026-03-03"
+  }
+}
