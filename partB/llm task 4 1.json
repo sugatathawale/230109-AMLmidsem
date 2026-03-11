@@ -1,0 +1,47 @@
+{
+  "student_metadata": {
+    "name": "Sugat Athawake",
+    "roll_number": "20109",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Drafting the 4-page report structure.",
+      "prompt": "Outline a concise report covering summary, reproduction, ablations, failure, reflection.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Generated task-specific content and structure aligned with Part B instructions.",
+      "student_verification": "I checked the relevant paper sections and ran the code where applicable.",
+      "confidence_level": 4,
+      "task tag": "Task 4.1",
+      "code used verbatim": false
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Outline a concise report covering summary, reproduction, ablations, failure, reflection.",
+      "why_important": "Directly supports the task deliverable."
+    }
+  ],
+  "student declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part B.",
+    "understanding acknowledged": true,
+    "signature": "Sugat Athawake",
+    "date": "2026-03-12"
+  }
+}
